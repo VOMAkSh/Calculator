@@ -70,7 +70,7 @@ export default class CalciButtons extends Component {
           onClick={() => {
             this.handleClick(i + "");
           }}
-          onKeyPress={() => {
+          onKeyPress={event => {
             this.handleKeyPress(event);
           }}
         >
